@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input type="text" id="inp">
+    <p id="para">This is the Elon Mask who i</p>
+    <button id="btn">Result</button>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+
+<script>
+    var fun=function(){
+        console.log("This is the index2 file");
+    }
+    $(document).ready(fun);
+
+
+    $('#btn').click(function(){
+        //value
+        // let v=$('#inp').val()
+        // console.log('The value is the '+ v);
+
+        // let v=$('#inp').val('This is the input value')
+
+        //text
+        // let c=$('#para').text();
+        // console.log(c);
+
+        let v=$('#para').text('<b>This is Sukalyan Adhikary<b>')
+
+        //html
+        // let s=$('#para').html();
+        // console.log(s,this);
+
+        // let s=$('#para').html("<b> This is Sukalyan Adhikary <b>");
+        
+       
+        
+    })
+
+</script>
+</body>
+</html>
